@@ -10,7 +10,7 @@ header {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
-    ), url(./images/header_bg.png);
+    ), url(../images/header_bg.png);
   background-position: center;
   background-size: cover;
   height: 110vh;
@@ -33,7 +33,7 @@ header {
   font: 550 1.6rem Lato;
 }
 div.logo {
-  background-image: url(./images/logo.png);
+  background-image: url(../images/logo.png);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 133px;
@@ -108,11 +108,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#203747', end
   color: #FFFFFF;
   font-size: 2.2rem;
   font-weight: 800;
-  transition: 1s;
+  transition-duration: 0.5s;
 }
 .login:hover, .register:hover {
   font-size: 2.7rem;
-  transition: 1s;
 }
 .login {
   background-color: #203747;
@@ -278,7 +277,7 @@ div.packages-back {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
-    ), url(./images/packages-photo.png);
+    ), url(../images/packages-photo.png);
   background-position: center;
   background-size: cover;
 }
@@ -337,16 +336,16 @@ div.figure::before {
   height: 18px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(./images/anchor.png);
+  background-image: url(../images/anchor.png);
 }
 .normal div.figure::before {
-  background-image: url(./images/half-star.png);
+  background-image: url(../images/half-star.png);
 }
 .big div.figure::before {
-  background-image: url(./images/star.png);
+  background-image: url(../images/star.png);
 }
 .biggest div.figure::before {
-  background-image: url(./images/brilliant.png);
+  background-image: url(../images/brilliant.png);
 }
 div.circle-wrapper {
   width: 55px;
@@ -544,7 +543,7 @@ svg.sprite {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
-    ), url(./images/comments-bg.png);
+    ), url(../images/comments-bg.png);
   background-position: center;
   background-size: cover;
   color: #FFF;
@@ -657,7 +656,7 @@ footer div.logo {
   background-image: linear-gradient(
       rgba(42, 42, 42, 0.7),
       rgba(42, 42, 42, 0.7)
-    ), url(./images/logo.png);
+    ), url(../images/logo.png);
 }
 footer .menu {
   border-bottom: 1px solid #494949;
@@ -710,7 +709,7 @@ footer .bar {
 }
 .ftr-2 ul {
   display: block;
-  list-style-image: url(./images/fa-angle-right.png);
+  list-style-image: url(../images/fa-angle-right.png);
 }
 .ftr-2 li a, .ftr-3 a {
   text-decoration: none;
@@ -737,11 +736,11 @@ span.tel, span.mail{
   display: inline-block;
   width: 11px;
   height: 11px;
-  background-image: url(./images/footer/phone.png);
+  background-image: url(../images/footer/phone.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 span.mail {
-  background-image: url(./images/footer/mail.png);
+  background-image: url(../images/footer/mail.png);
 }
